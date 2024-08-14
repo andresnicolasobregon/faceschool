@@ -7,6 +7,13 @@
     display: flex;
     width: 100%;
     justify-content: flex-start;
+    align-items: center;
+}
+.boxmegusta{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
 }
 #boxbotones{
     display: flex;
@@ -24,5 +31,10 @@ button{
     border: 2px solid violet;
 }
 #imgfoto{
+    width: 100%;
+    border-radius: 5px;
+}
+#boxpublicacion{
     width: 90%;
+    display: flex;
 }

@@ -1,0 +1,43 @@
+body{
+	background-color: gray;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 400px;
+}
+#boxlogin{
+	border:  1px solid white;
+	border-radius: 10px;
+	height: 250px;
+	width: 250px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	justify-content: space-evenly;
+}
+button{
+	width: 80%;
+}
+
+#boxcamara{
+	position: relative;
+	background-color: grey;
+	top: -40px;
+	border: 1px solid white;
+	border-radius: 100px;
+	width: 50px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#boxcontrasena{
+	display: flex;
+	font-size: 8px;
+	font-style: italic;
+	width: 90%;
+	align-items: center;
+	justify-content: center;
+	justify-content: space-evenly;
+}
