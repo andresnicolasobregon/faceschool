@@ -41,3 +41,6 @@ button{
 	justify-content: center;
 	justify-content: space-evenly;
 }
+#boxconfircontrasena{
+	display: none;
+}
