@@ -11,21 +11,21 @@
 		</div>
 		<div>
 			<img src="">
-			<input type="" name="" required placeholder="Usuario">		
+			<input type="" name="" required placeholder="Usuario" id="inputusuario">		
 		</div>
 		<div id="boxcontrasena">
-			<input type="password" name="" id="inputcontrasena">
+			<input type="password" name="" id="inputcontrasena" requiered>
 			<button class="btnver" onclick="vercontrasena()"><img src="visible.svg" alt="" id="imgojito"></button>				
 		</div>
 		<div id="boxconfircontrasena">
-			<input type="password" name="" id="inputconfircontrasena">	
-			<button class="btnver"><img src="visible.svg" alt=""></button>				
+			<input type="password" name="" id="inputconfircontrasena" requiered>	
+			<button class="btnver" onclick="vercontrasena2()"><img src="visible.svg" alt=""  id="imgojito2"></button>				
 		</div>
 		<div id="boxcontrasena">
 			<input type="checkbox" name="">Recuerdame</input> 
 			<p>Recuperar contraseña</p>
 		</div>
-		<button id="btnlogin">Login</button>
+		<button id="btnlogin" onclick="login()">Login</button>
 		<button id="btnregistrar" onclick="registrar()">Registrar</button>
 	</div>
 	<script src="funciones.js"></script>
