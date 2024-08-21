@@ -29,12 +29,12 @@ function confirmarcontrasena(){
 
 function vercontrasena() {
     let ojito = document.getElementById("imgojito").src
-    console.log(ojito)
+
     if ( ojito.includes("novisible.svg")) {
         document.getElementById("imgojito").src ="visible.svg"
-        document.getElementById("inputcontrasena").type = "password"
+        document.getElementById("inputcontrasena").type = "text"
     } else {
         document.getElementById("imgojito").src ="novisible.svg"
-        document.getElementById("inputcontrasena").type = "text"
+        document.getElementById("inputcontrasena").type = "password"
     }
 }
