@@ -44,3 +44,16 @@ button{
 #boxconfircontrasena{
 	display: none;
 }
+.btnver{
+    width: 30px;
+	border: none;
+	height: 25px;  
+	background-color: grey; 
+}
+#boxcontrasena{
+	display: flex;
+
+}
+input{
+	height: 25px;  
+}
